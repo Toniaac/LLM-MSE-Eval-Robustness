@@ -1,41 +1,38 @@
 # Evaluating the Performance and Robustness of LLMs in Materials Science Q&A and Property Predictions
 
 ## Overview
+Large Language Models (LLMs) have the potential to revolutionize scientific research, yet their robustness and reliability in domain-specific applications remain insufficiently explored. This study evaluates the **performance and robustness of LLMs for materials science**, focusing on **domain-specific question answering and materials property prediction** under diverse real-world and adversarial conditions.
 
-This repository contains the dataset, analysis scripts, and results of a study evaluating the performance and robustness of various **Large Language Models (LLMs)** on **Materials Science** Question Answering (Q&A) and Property Predictions. ![schematics of the workflow](Workflow.png)
+This repository contains the dataset, analysis scripts, and results of the study for reproducibility purpose. 
 
-## Data and Methods
+![schematics of the workflow](Workflow.png)
 
-### 1. Datasets
+## Datasets
 
-
-### 2. Models Evaluated
-
-We benchmarked the following models:
-
-- **OpenAI Models**: GPT-4o, GPT-4-0613, GPT-3.5-Turbo-0613
-- **Anthropic Models**: Claude-3.5-Sonnet
-- **Meta AI Models**: LLaMA-2-7B, LLaMA-2-13B, LLaMA-2-70B, LLaMA33-70B-Instruct
-- **DeepSeek Models**: DeepSeek-R1
-
-### 3. Evaluation Metrics
-
-
-
+1. **MSE-MCQs**  
+   - **Source:** Univeristy of Toronto undergraduate materials science courses  
+   - **Task:** Evaluating domain knowledge and reasoning skills of LLMs
+   - **Size:** 113
+   
+2. **Matbench_steels**  
+   - **Source:** [Matbench](https://matbench.materialsproject.org/)
+   - **Task:** Predicting yield strength from steel compositions  
+   - **Size:** 312
+   
+3. **Band Gap Dataset**  
+   - **Source:** [The Materials Project](https://next-gen.materialsproject.org/)
+   - **Task:** Predicting band gap values from textual descriptions ([LLM-Prop](https://github.com/vertaix/LLM-Prop.git)) of crystal structures generated using [Robocrystallographer](https://github.com/hackingmaterials/robocrystallographer.git)
+   - **Size:** ~10,000
+  
 ## Installation and Usage
 
 To replicate the analysis:
 
 ```sh
 # Clone this repository
-git clone https://github.com/yourusername/llm-materials-science-eval.git
-cd llm-materials-science-eval
+git clone https://github.com/Toniaac/LLM-MSE-Eval-Robustness.git
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the analysis scripts
-python scripts/analyze_results.py
+# Run the jupyter notebook .ipynb files in their respective folders
 ```
 
 ## Citation
@@ -56,4 +53,4 @@ If you use this dataset or analysis in your research, please cite:
 
 ## Contact
 
-For any questions or contributions, please open an issue or contact [**hongchen.wang@mail.utoronto.ca**](mailto:hongchen.wang@mail.utoronto.ca).
+For any questions or contributions, please contact [**hongchen.wang@mail.utoronto.ca**](mailto:hongchen.wang@mail.utoronto.ca).
