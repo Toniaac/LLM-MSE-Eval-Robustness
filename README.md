@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the dataset, analysis scripts, and results of a study evaluating the performance and robustness of various **Large Language Models (LLMs)** on **Materials Science** Question Answering (Q&A) and Property Predictions. The ![schematics of the workflow](Workflow.png) is shown below.
+This repository contains the dataset, analysis scripts, and results of a study evaluating the performance and robustness of various **Large Language Models (LLMs)** on **Materials Science** Question Answering (Q&A) and Property Predictions. ![schematics of the workflow](Workflow.png)
 
 ## Data and Methods
 
