@@ -34,6 +34,7 @@ git clone https://github.com/Toniaac/LLM-MSE-Eval-Robustness.git
 
 # Run the jupyter notebook .ipynb files in their respective folders
 ```
+To reproduce the figures in the paper, no inference needs to be run. Please just initialize and run the cells under "Plot" in each jupyter notebook. 
 
 ## Citation
 
