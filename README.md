@@ -5,7 +5,7 @@ Large Language Models (LLMs) have the potential to revolutionize scientific rese
 
 This repository contains the dataset, analysis scripts, and results of the study for reproducibility purpose. 
 
-![schematics of the workflow](Workflow.png)
+![schematics of the workflow](workflow.png)
 
 ## Datasets
 
