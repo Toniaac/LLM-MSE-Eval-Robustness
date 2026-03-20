@@ -41,15 +41,18 @@ To reproduce the figures in the paper, no inference needs to be run. Please just
 If you use this dataset or analysis in your research, please cite:
 
 ```bibtex
-@misc{wang2024evaluatingperformancerobustnessllms,
-      title={Evaluating the Performance and Robustness of LLMs in Materials Science Q&A and Property Predictions}, 
-      author={Hongchen Wang and Kangming Li and Scott Ramsay and Yao Fehlis and Edward Kim and Jason Hattrick-Simpers},
-      year={2024},
-      eprint={2409.14572},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2409.14572}, 
-}
+@article{Wang_2025,
+   title={Evaluating the performance and robustness of LLMs in materials science Q&amp;A and property predictions},
+   volume={4},
+   ISSN={2635-098X},
+   url={http://dx.doi.org/10.1039/D5DD00090D},
+   DOI={10.1039/d5dd00090d},
+   number={6},
+   journal={Digital Discovery},
+   publisher={Royal Society of Chemistry (RSC)},
+   author={Wang, Hongchen and Li, Kangming and Ramsay, Scott and Fehlis, Yao and Kim, Edward and Hattrick-Simpers, Jason},
+   year={2025},
+   pages={1612–1624} }
 ```
 
 ## Contact
